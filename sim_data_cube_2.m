@@ -12,6 +12,8 @@ disp '/*----------------------------------------------------------------*/'
 
 % First comment
 
+% 1st branch comment
+
 load data64_new.mat
 
 %/Input model image
