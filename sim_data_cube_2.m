@@ -10,6 +10,8 @@ disp ' example: Simulation of wide band radio interferometric data'
 disp ' Physical model: power low spectra'
 disp '/*----------------------------------------------------------------*/'
 
+% First comment
+
 load data64_new.mat
 
 %/Input model image
