@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -J matlab_test
+#SBATCH -D .
+#SBATCH -o results/out.%j.%N
+#SBATCH -e results/err.%j.%N
+#SBATCH --partition=general
+#SBATCH --nodelist=kepler0
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+
+matlab -nodisplay -r sim_data_cube_2

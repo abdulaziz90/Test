@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J matlab_test
+#SBATCH -D .
+#SBATCH -o results/out.%j.%N
+#SBATCH -e results/err.%j.%N
+#SBATCH --partition=general
+#SBATCH --nodelist=kepler1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+
+export MLM_LICENSE_FILE=27009@is-lic1.is.ed.ac.uk,27009@is-lic2.is.ed.ac.uk,27009@is-lic3.is.ed.ac.uk
+
+matlab -nodisplay -r sim_data_cube_2

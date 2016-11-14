@@ -1,0 +1,8 @@
+{Error using load
+Unable to read file 'data64_new.mat': no such file or directory.
+
+Error in sim_data_cube_2 (line 13)
+load data64_new.mat
+
+} 
+

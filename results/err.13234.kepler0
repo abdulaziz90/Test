@@ -1,0 +1,8 @@
+{Error using load
+Unable to read file 'indmap_final.mat': no such file or directory.
+
+Error in sim_data_cube_2 (line 70)
+load indmap_final.mat;
+
+} 
+
